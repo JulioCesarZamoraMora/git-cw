@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpport" content="widht=device-width,initial-scaled=1.0">
+    <meta name="author" content="Julio César Zamora Mora">
+    <meta name="description" content="Apunte de etiquetas HTML">
+    <style>
+        table, th, td{
+            border:1px solid black
+        }
+    </style>
+</head>
+<body>
+    <h1>Apunte de etiquetas</h1>
+<table>
+    <caption>"Etiquetas HTML"</caption>
+    <colgroup>
+        <col style="width: 40%;">
+        <col span="3" style ="width: 40%;">
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope ="col">Etiqueta</th>
+            <th scope ="col">¿Para qué sirve?</th>
+            <th scope ="col">Ejemplo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>title</td><td>Se utiliza para poner un título a la página web.</td><td>&lt;title&gt;Actividad 2. Explicar código de C &lt;/title&gt;</td></tr>
+        <tr><td>&lt;caption&gt;</td><td>Se usa para ponerles un encabezado a la tabla.</td><td>&lt;caption&gt;  Etiquetas HTML  &lt;caption&gt;</td></tr>
+        <tr><td>&lt;code&gt;</td><td>permite leer fragmentos de código en una página web</td><td><pre><code>
+        #include &lt stdio.h &gt
+        int main()
+        {
+            printf("Hola mundo");
+            return 0;
+        }
+    </code></pre></td></tr>
+        <tr><td>&lt;ol&gt;</td><td>Se usa para hacer una lista de manera ordenada.</td><td><pre><code>
+            <ol style="list-style-type:upper_alpha">
+            <li>Elemento1</li>
+            <li>Elemento2</li>
+            <li>Elemento3</li>
+            </ol>
+        </code></pre></td></tr>
+        <tr><td>&lt;li&gt;</td><td>Indica los elementos de una lista, los que se enumeran</td><td>&lt;li&gt; Elemento1 &lt;li&gt;</td></tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scaled=1.0">
+    <meta name="author" content ="Julio César Zamora Mora">
+    <meta name="description" content="Se va a explicar un código de C en HTML">    
+
+    <title>Actividad 2. Explicar código de C</title>
+</head>
+<body>
+    <!-- h - Heading -->
+    <h1>Código a revisar</h1>
+    <pre><code>
+        #include <stdio.h>
+
+    int main() {
+    int edad;
+    printf("¿Cuántos años tienes? ");
+    scanf("%d", &edad);
+    if (edad >= 18) {
+        printf("Eres mayor de edad.\n");
+    } else {
+        printf("Eres menor de edad.\n");
+    }
+    return 0;
+    }
+
+    <h2>Análisis del código</h2>
+    <p>La línea<code>#include &lt;stduio&gt;</code>Indica que va a incluir la biblioteca o librería estándar de C</p>
+    <p>La línea<code>int main()</code>Indica donde empieza el programa principal</p>
+    <p>La línea<code>int edad;</code>Declara la variable, de tipo entero, con la que se va a trabajar</p>
+    <p>La siguiente línea<code>printf("¿Cuántos años tienes? ");</code>Manda a pantalla una pregunta para que el usuario responda</p>
+    <p>La línea<code>scanf("%d", &edad);</code>Guarda el resultado en la variable edad</p>
+    <p>La línea<code>if (edad >= 18) </code>Hace una comparación en la que si la variable edad es mayor o igual a 18 va a hacer algo</p>
+    <p>La siguiente línea<code>printf("Eres mayor de edad.\n");</code>Es en caso de que el if sea verdadero, mandará a pantalla el mensaje de "Eres mayor de edad"</p>
+    <p>La línea<code>else</code>Es en caso de que no se cumpla el if entonces hará algo diferente</p>
+    <p>La línea<code>printf("Eres menor de edad.\n");</code>En caso de que no se cumpla el if, mandará a pantalla el mensaje "Eres menor de edad"</p>
+    <p>La última línea<code>return 0;</code>Indica el final del programa</p>
+
+    </code>
+    </pre>
+</body>    
+</html>
